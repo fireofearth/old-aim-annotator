@@ -1,0 +1,80 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+textarea {
+    padding: 3px 3px;
+    font-size: small;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.list-group-item {
+    padding: 0;
+    text-align: left;
+}
+
+/** 
+ * Flex item expands to flex container. Also allows for shrinking past content size, so it works nicely with overflow-auto
+ */
+.flex-to-fill {
+    flex: 1 1 0;
+}
+
+/** 
+ * Flex item is only as large as it's content
+ */
+.flex-to-content {
+    flex: 0 1;
+}
+
+.flex-to-content-with-basis {
+    flex: 0 1 auto;
+}
+
+.btn {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.demo-btn {
+    width: 25px;
+    height: 25px;
+}
+
+/* .btn-group {
+    color: #2c3e50;
+} */
+
+.btn-secondary {
+    background-color: inherit;
+    border-color: inherit;
+    color: inherit;
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+    box-shadow: none !important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):not(:active):not(:active):not(.active):hover, .btn-secondary:not(:disabled):not(.disabled):not(:active):not(:active):not(.active).hover {
+    background-color: inherit;
+    border-color: inherit;
+    color: inherit;
+    filter: brightness(90%);
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active {
+    background-color: inherit;
+    border-color: inherit;
+    color: inherit;
+    filter: brightness(80%);
+}
+
+#osd {
+    width: 100%;
+    height: 100%;
+}
