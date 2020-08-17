@@ -1,5 +1,7 @@
 # frontend
 
+**Deprecated**: using a different annotator front-end.
+
 ## Project setup
 ```
 npm install
